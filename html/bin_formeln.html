@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>binomische Formeln</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="bilder/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>Binomische Formeln</h1>
+      <h4>und deren Herleitung</h4>
+    </header>
+    <a href="../index.html">
+      <button class="zurückBtn">
+        <div class="sign">
+          <svg viewBox="0 0 512 512">
+            <path
+              d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"
+            ></path>
+          </svg>
+        </div>
+      </button>
+    </a>
+    <section>
+      <h3>1. Binomische Formel</h3>
+      <p>
+        Die erste binomische Formel <b>(a + b)² = a² + 2ab + b²</b> lässt sich
+        ganz einfach an ein paar Quadraten veranschaulichen. Das
+        <span style="color: rgb(255, 0, 0)">erste Quadrat</span> hat die
+        Seitenlänge a und somit den Flächeninhalt A = a². <br />
+        Zu diesem wird ein weiteres
+        <span style="color: rgb(0, 38, 255)"> Quadrat</span> addiert und an den
+        Seiten zu einer großen Fläche ergänzt:
+      </p>
+      <img src="../bilder/bin1A.png" />
+      <p>
+        Des entstandene Quadrat hat somit die Seitelänge a + b und damit den
+        Flächenninhalt <b>(a + b)²</b> <br />
+        Wie man sieht sind nun noch zwei weitere Bereiche Entstanden. Hier
+        dargestellt als
+        <span style="color: rgb(1, 236, 1)">grüne Rechtecke</span>.<br />
+        Diese Rechtecke haben die Seiten a und b und somit einen Flächeninhalt
+        von A = a*b oder A = ab
+      </p>
+      <p>
+        Wenn man diese ganzen Flächeninhalte miteinander addiert kommt man auf
+        die Formel für die erste binomische Formel:
+      </p>
+      <img src="../bilder/bin1B.png" />
+      <div class="bild3">(a + b)² = a² + 2ab + b²</div>
+      <h3>2. Binomische Formel</h3>
+      <p>
+        Die zweite binomische Formel <b>(a + b)² = a² + 2ab + b²</b> ähnelt sich
+        zwar vom Aufbau sehr stark zur ersten, allerdings ist es graphisch
+        gesehen genau das Gegenteil. <br />
+        Dieses mal wird nämlich ein Quadrat von dem anderen abgezogen:
+      </p>
+      <div class="bild4">(a-b)²</div>
+      <p>
+        Das <span style="color: rgb(255, 0, 0)">erste Quadrat</span> hat erneut
+        die Seitenlänge a und somit den Flächeninhalt A = a². <br />
+        Von diesem wird ein weiteres
+        <span style="color: rgb(0, 38, 255)"> Quadrat</span> subtrahiert und
+        somit entsteht folgendes Schaubild:
+      </p>
+      <div class="bild5">(a - b)²(2)</div>
+      <p>
+        Flächenninhalt <b>(a + b)²</b> <br />
+        Wie man sieht sind nun wiedermal zwei weitere Rechtecke Entstanden. Wir
+        wissen ja bereits, dass diese Rechtecke den Flächeninhalt A = ab haben.
+        Dadurch kannst du dir erschließen, dass ein Teil der Formel a² - 2ab
+        heißen muss. Allerdings überschneiden sich die beiden Rechtecke.
+        Deswegen muss das Feld indem sich die Beiden Flächen überschneiden
+        wieder dazu addiert werden. Die Seitenlänge des zu addierenden Quadrats
+        ist b und somit fügen wir der Formel b² hinzu:
+      </p>
+      <div class="bild6">(a + b)² = a² + 2ab + b²</div>
+      <h3>3. Binomische Formel</h3>
+      <p>
+        Bei der dritten Binomischen Formel
+        <b>a² + b² = (a + b) * (a + b)</b> geht es ähnlich wie bei der zweiten.
+        <br />
+        Es werden wieder zwei Quadrate voneinander Subtrahiert:
+      </p>
+      <div class="bild7">(a + b)² = a² + 2ab + b²</div>
+      <p>
+        Daraufhin kann man nun die Fläche in der Diagonale teilen und zu einem
+        Rechteck zusammenfassen:
+      </p>
+      <div class="bild8">(a + b)² = a² + 2ab + b²</div>
+      <p>
+        Wenn man nun den Flächeninhalt von einem Rechteck aus den beiden Seiten
+        aufstellt kommt man auf die folgende Formel:
+      </p>
+      <div class="bild6">(a + b)² = a² + 2ab + b²</div>
+    </section>
+    <footer>
+      <p>
+        © 2025 Facharbeit von Jonathan Zachäus,
+        Christian-Gottfried-Ehrenberg-Gymnasium Delitzsch
+      </p>
+    </footer>
+  </body>
+</html>
